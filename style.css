@@ -1,0 +1,73 @@
+.game-board {
+  border: 2px solid black;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 12px;
+  margin-top: 8px;
+}
+
+.game-over {
+  border: 2px solid black;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  z-index: 1;
+  text-align: center;
+  font-size: 5em;
+  margin-top: 8px;
+}
+
+.final-score {
+  color: purple;
+}
+
+h1 {
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.time-remaining, .score {
+  border: 2px solid black;
+  padding: 0.5em;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  margin: 0 1em;
+}
+
+.time-number, .score-number {
+  color: green;
+  font-size: 5em;
+  display: block;
+}
+
+.hole {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+  margin: 0 10px;
+}
+
+.mole {
+  background-image: url(./mole.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.reset-button {
+  
+}
+
+.hidden {
+  display: none;
+}
