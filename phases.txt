@@ -1,0 +1,8 @@
+- set up html & css; as a bonus, they can create it using document.createElement / parentNode.append
+- set up game state: time remaining, score; tickId is global too but it won't appear so at first
+- get the timer going, displaying the time (uses innerText = ), and revealing the game over div w/ score
+- put a mole in a single hole (maybe give it a class that confers a background-image?)
+- put the mole in a random hole
+- setInterval(putMole)
+- click events on holes: can hardcode first, then upgrade to dynamic
+- reset button
